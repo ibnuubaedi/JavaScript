@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logical Operator</title>
+  </head>
+  <body>
+    <script>
+      /* Logical Operator
+        "&&" = Operator dan (and). Logika akan menghasilkan nilai true apabila semua kondisi terpenuhi (bernilai true).
+        "||" = Operator atau (or). Logika akan menghasilkan nilai true apabila ada salah satu kondisi terpenuhi (bernilai true).
+        "!"  = Operator tidak (not). Digunakan untuk membalikkan suatu kondisi.
+        */
+      let a = 10;
+      let b = 12;
+
+      // AND Operator
+      console.log(a < 15 && b > 10);
+      console.log(a > 15 && b > 10);
+
+      // OR Operator
+      console.log(a < 15 || b > 10);
+      console.log(a > 15 || b > 10);
+
+      // NOT Operator
+      console.log(!(a < 15));
+      console.log(!(a < 15 && b > 10));
+    </script>
+  </body>
+</html>

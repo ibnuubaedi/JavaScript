@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array</title>
+  </head>
+  <body>
+    <script>
+      // Membuat Array
+      let myArray = ["Cokelat", 42.5, 22, true, "Programming"];
+      console.log(myArray);
+
+      // Mengakses isi Array
+      console.log(myArray[1]);
+
+      // Menambah dan Menghapus data pada Array
+      myArray.push("JavaScript");
+      console.log(myArray);
+      myArray.pop();
+      console.log(myArray);
+      myArray.shift();
+      console.log(myArray);
+      myArray.unshift("Apple");
+      console.log(myArray);
+
+      // Menghapus data Array
+      delete myArray[1];
+      console.log(myArray);
+
+      myArray.splice(1, 1);
+      console.log(myArray);
+    </script>
+  </body>
+</html>

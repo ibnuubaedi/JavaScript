@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Object</title>
+  </head>
+  <body>
+    <script>
+      // Membuat sebuah object
+      const user = {
+        firstName: "Ibnu",
+        lastName: "Ubaedi",
+        age: 25,
+        isMarried: true,
+      };
+      console.log(`Halo, nama saya ${user.firstName} ${user.lastName}`);
+
+      // Mengubah nilai object
+      user.firstName = "Inayah";
+      console.log(`Halo, nama saya ${user.firstName} ${user.lastName}`);
+
+      // Menghapus property object
+      delete user.isMarried;
+      console.log(user);
+    </script>
+  </body>
+</html>

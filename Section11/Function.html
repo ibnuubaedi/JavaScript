@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function</title>
+  </head>
+  <body>
+    <script>
+      // Membuat sebuah fungsi
+      function multiply(a, b) {
+        let c = a * b;
+        return c;
+      }
+
+      // Memanggil fungsi
+      console.log(multiply(5, 4));
+
+      function greeting() {
+        console.log("Good morning!");
+      }
+      greeting();
+
+      function myGreeting(name, language) {
+        if (language === "English") {
+          console.log(`Good morning ${name}!`);
+        } else if (language === "French") {
+          console.log(`Bonjour ${name}!`);
+        } else {
+          console.log(`Selamat pagi ${name}!`);
+        }
+      }
+      myGreeting("Ibnu", "French");
+
+      let myGreetingMessage = myGreeting("Inayah", "Indonesia");
+      myGreetingMessage;
+    </script>
+  </body>
+</html>
