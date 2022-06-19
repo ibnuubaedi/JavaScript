@@ -1,2 +1,6 @@
 # JavaScript
-- JavaScript Basic
+- Introduction JavaScript
+- Fundamental JavaScript
+- Data Structure
+- Function
+- Much More
